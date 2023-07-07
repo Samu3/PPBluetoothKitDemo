@@ -1,0 +1,6 @@
+framework module PPBluetoothKit {
+  umbrella header "PPBluetoothKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

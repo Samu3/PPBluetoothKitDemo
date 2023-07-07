@@ -1,0 +1,34 @@
+{
+  "name": "PPBluetoothKit",
+  "version": "0.0.1",
+  "summary": "A short description of PPBluetoothKit.",
+  "description": "For easy use bluetooth scale",
+  "homepage": "http://EXAMPLE/PPBluetoothKit",
+  "license": "MIT",
+  "authors": {
+    "Peng": "jinx_p@hotmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "http://pp/PPBluetoothKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "PPBluetoothKit",
+    "PPBluetoothKit/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "PPBluetoothKit/Resources/*",
+  "subspecs": [
+    {
+      "name": "libBhBodyComposition",
+      "vendored_frameworks": "PPBluetoothKit/Kit/Calculate/libBhBodyComposition/libBhBodyComposition.xcframework"
+    },
+    {
+      "name": "abyonCalculate",
+      "vendored_frameworks": "PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework"
+    }
+  ]
+}

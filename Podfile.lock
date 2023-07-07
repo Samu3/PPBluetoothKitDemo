@@ -1,0 +1,20 @@
+PODS:
+  - PPBluetoothKit (0.0.1):
+    - PPBluetoothKit/abyonCalculate (= 0.0.1)
+    - PPBluetoothKit/libBhBodyComposition (= 0.0.1)
+  - PPBluetoothKit/abyonCalculate (0.0.1)
+  - PPBluetoothKit/libBhBodyComposition (0.0.1)
+
+DEPENDENCIES:
+  - PPBluetoothKit (from `/Users/lefu/Documents/iOS/XMProject/PPBluetoothKit`)
+
+EXTERNAL SOURCES:
+  PPBluetoothKit:
+    :path: "/Users/lefu/Documents/iOS/XMProject/PPBluetoothKit"
+
+SPEC CHECKSUMS:
+  PPBluetoothKit: 278cde267b7ee01f74424a0563425cb150a638d0
+
+PODFILE CHECKSUM: 2ea0d25d471b46300822ee91d398af42553231a9
+
+COCOAPODS: 1.11.3

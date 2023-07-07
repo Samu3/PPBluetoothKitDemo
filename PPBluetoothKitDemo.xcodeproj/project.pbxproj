@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DB400F2CE73856E1064AF2F /* Pods_PPBluetoothKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B649855A0E923CB3E7F7827 /* Pods_PPBluetoothKitDemo.framework */; };
+		952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319542A52A4F0003246BA /* FoundedViewController.swift */; };
+		952319572A52AAEA003246BA /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319562A52AAEA003246BA /* ScaleViewController.swift */; };
+		952319592A52B5E3003246BA /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319582A52B5E3003246BA /* AppDetailViewController.swift */; };
+		9523195D2A53B315003246BA /* BananaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523195C2A53B315003246BA /* BananaViewController.swift */; };
+		952319612A53C794003246BA /* DurianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319602A53C794003246BA /* DurianViewController.swift */; };
+		952319632A53F466003246BA /* CoconutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319622A53F466003246BA /* CoconutViewController.swift */; };
+		952319652A54039D003246BA /* CalcuteObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319642A54039D003246BA /* CalcuteObj.swift */; };
+		952319672A5408CD003246BA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319662A5408CD003246BA /* UserInfoViewController.swift */; };
 		955A39C62A2B3A0D00853B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A39C52A2B3A0D00853B9D /* AppDelegate.swift */; };
-		955A39C82A2B3A0D00853B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A39C72A2B3A0D00853B9D /* SceneDelegate.swift */; };
 		955A39CA2A2B3A0D00853B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A39C92A2B3A0D00853B9D /* ViewController.swift */; };
 		955A39CD2A2B3A0D00853B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955A39CB2A2B3A0D00853B9D /* Main.storyboard */; };
 		955A39CF2A2B3A0E00853B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A39CE2A2B3A0E00853B9D /* Assets.xcassets */; };
@@ -36,9 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6C81D2D3F4BCD743879964 /* Pods-PPBluetoothKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBluetoothKitDemo.release.xcconfig"; path = "Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2B649855A0E923CB3E7F7827 /* Pods_PPBluetoothKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPBluetoothKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952319542A52A4F0003246BA /* FoundedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedViewController.swift; sourceTree = "<group>"; };
+		952319562A52AAEA003246BA /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		952319582A52B5E3003246BA /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		9523195C2A53B315003246BA /* BananaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaViewController.swift; sourceTree = "<group>"; };
+		952319602A53C794003246BA /* DurianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurianViewController.swift; sourceTree = "<group>"; };
+		952319622A53F466003246BA /* CoconutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoconutViewController.swift; sourceTree = "<group>"; };
+		952319642A54039D003246BA /* CalcuteObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuteObj.swift; sourceTree = "<group>"; };
+		952319662A5408CD003246BA /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		9557F6502A4962AB00F6AE60 /* SwiftHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftHeader.h; sourceTree = "<group>"; };
 		955A39C22A2B3A0D00853B9D /* PPBluetoothKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPBluetoothKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955A39C52A2B3A0D00853B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		955A39C72A2B3A0D00853B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		955A39C92A2B3A0D00853B9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		955A39CC2A2B3A0D00853B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		955A39CE2A2B3A0E00853B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,7 @@
 		955A39E22A2B3A0E00853B9D /* PPBluetoothKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPBluetoothKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		955A39E62A2B3A0E00853B9D /* PPBluetoothKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPBluetoothKitDemoUITests.swift; sourceTree = "<group>"; };
 		955A39E82A2B3A0E00853B9D /* PPBluetoothKitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPBluetoothKitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFAD8C40FCCE4BC474A517D5 /* Pods-PPBluetoothKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBluetoothKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB400F2CE73856E1064AF2F /* Pods_PPBluetoothKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15D016E26305B9DD0C3DA692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B649855A0E923CB3E7F7827 /* Pods_PPBluetoothKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		955A39B92A2B3A0D00853B9D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				955A39DB2A2B3A0E00853B9D /* PPBluetoothKitDemoTests */,
 				955A39E52A2B3A0E00853B9D /* PPBluetoothKitDemoUITests */,
 				955A39C32A2B3A0D00853B9D /* Products */,
+				A9D95944B6F6EF113B76B147 /* Pods */,
+				15D016E26305B9DD0C3DA692 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +130,20 @@
 			isa = PBXGroup;
 			children = (
 				955A39C52A2B3A0D00853B9D /* AppDelegate.swift */,
-				955A39C72A2B3A0D00853B9D /* SceneDelegate.swift */,
 				955A39C92A2B3A0D00853B9D /* ViewController.swift */,
 				955A39CB2A2B3A0D00853B9D /* Main.storyboard */,
 				955A39CE2A2B3A0E00853B9D /* Assets.xcassets */,
 				955A39D02A2B3A0E00853B9D /* LaunchScreen.storyboard */,
 				955A39D32A2B3A0E00853B9D /* Info.plist */,
+				9557F6502A4962AB00F6AE60 /* SwiftHeader.h */,
+				952319542A52A4F0003246BA /* FoundedViewController.swift */,
+				952319562A52AAEA003246BA /* ScaleViewController.swift */,
+				952319582A52B5E3003246BA /* AppDetailViewController.swift */,
+				9523195C2A53B315003246BA /* BananaViewController.swift */,
+				952319602A53C794003246BA /* DurianViewController.swift */,
+				952319622A53F466003246BA /* CoconutViewController.swift */,
+				952319642A54039D003246BA /* CalcuteObj.swift */,
+				952319662A5408CD003246BA /* UserInfoViewController.swift */,
 			);
 			path = PPBluetoothKitDemo;
 			sourceTree = "<group>";
@@ -127,6 +165,15 @@
 			path = PPBluetoothKitDemoUITests;
 			sourceTree = "<group>";
 		};
+		A9D95944B6F6EF113B76B147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFAD8C40FCCE4BC474A517D5 /* Pods-PPBluetoothKitDemo.debug.xcconfig */,
+				1B6C81D2D3F4BCD743879964 /* Pods-PPBluetoothKitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 955A39EC2A2B3A0E00853B9D /* Build configuration list for PBXNativeTarget "PPBluetoothKitDemo" */;
 			buildPhases = (
+				1F9550B24994B6C3CF919FBA /* [CP] Check Pods Manifest.lock */,
 				955A39BE2A2B3A0D00853B9D /* Sources */,
 				955A39BF2A2B3A0D00853B9D /* Frameworks */,
 				955A39C02A2B3A0D00853B9D /* Resources */,
+				FBEC074FD2A52B85F2FA0F0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +302,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F9550B24994B6C3CF919FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPBluetoothKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEC074FD2A52B85F2FA0F0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		955A39BE2A2B3A0D00853B9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952319632A53F466003246BA /* CoconutViewController.swift in Sources */,
 				955A39CA2A2B3A0D00853B9D /* ViewController.swift in Sources */,
+				9523195D2A53B315003246BA /* BananaViewController.swift in Sources */,
+				952319592A52B5E3003246BA /* AppDetailViewController.swift in Sources */,
 				955A39C62A2B3A0D00853B9D /* AppDelegate.swift in Sources */,
-				955A39C82A2B3A0D00853B9D /* SceneDelegate.swift in Sources */,
+				952319652A54039D003246BA /* CalcuteObj.swift in Sources */,
+				952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */,
+				952319672A5408CD003246BA /* UserInfoViewController.swift in Sources */,
+				952319612A53C794003246BA /* DurianViewController.swift in Sources */,
+				952319572A52AAEA003246BA /* ScaleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +530,13 @@
 		};
 		955A39ED2A2B3A0E00853B9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAD8C40FCCE4BC474A517D5 /* Pods-PPBluetoothKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69D4QH45F9;
+				DEVELOPMENT_TEAM = W4G83GSZJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PPBluetoothKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +544,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xm.PPBluetoothKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = PPBluetoothKitDemo/SwiftHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,12 +561,13 @@
 		};
 		955A39EE2A2B3A0E00853B9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6C81D2D3F4BCD743879964 /* Pods-PPBluetoothKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69D4QH45F9;
+				DEVELOPMENT_TEAM = W4G83GSZJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PPBluetoothKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,6 +575,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +584,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xm.PPBluetoothKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = PPBluetoothKitDemo/SwiftHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
