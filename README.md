@@ -2,10 +2,6 @@
 
  这是一个连接蓝牙秤的demo。
 
-[线上地址](http://github.com)
-
-[国内访问](https://github.com)
-
 ### PPBluetoothKit
 
 目前版本为 v1.0
