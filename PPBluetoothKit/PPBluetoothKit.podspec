@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '9.0'
 
   spec.ios.vendored_frameworks = 'PPBluetoothKit.xcframework'
-  spec.resource = 'PPBluetoothKit.bundle'
 
 
 end
