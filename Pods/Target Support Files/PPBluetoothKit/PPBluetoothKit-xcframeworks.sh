@@ -23,15 +23,6 @@ variant_for_slice()
   "abyonCalculate.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "libBhBodyComposition.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "libBhBodyComposition.xcframework/ios-arm64_armv7")
-    echo ""
-    ;;
-  "libBhBodyComposition.xcframework/ios-i386_x86_64-simulator")
-    echo "simulator"
-    ;;
   esac
 }
 
@@ -43,15 +34,6 @@ archs_for_slice()
     ;;
   "abyonCalculate.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
-    ;;
-  "libBhBodyComposition.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "libBhBodyComposition.xcframework/ios-arm64_armv7")
-    echo "arm64 armv7"
-    ;;
-  "libBhBodyComposition.xcframework/ios-i386_x86_64-simulator")
-    echo "i386 x86_64"
     ;;
   esac
 }
@@ -135,6 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../XMProject/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework" "PPBluetoothKit/abyonCalculate" "library" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../XMProject/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/libBhBodyComposition/libBhBodyComposition.xcframework" "PPBluetoothKit/libBhBodyComposition" "library" "ios-arm64_x86_64-maccatalyst" "ios-arm64_armv7" "ios-i386_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../xin-ios/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework" "PPBluetoothKit/abyonCalculate" "library" "ios-arm64" "ios-arm64_x86_64-simulator"
 

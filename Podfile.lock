@@ -1,20 +1,25 @@
 PODS:
+  - IQKeyboardManager (6.5.11)
   - PPBluetoothKit (0.0.1):
     - PPBluetoothKit/abyonCalculate (= 0.0.1)
-    - PPBluetoothKit/libBhBodyComposition (= 0.0.1)
   - PPBluetoothKit/abyonCalculate (0.0.1)
-  - PPBluetoothKit/libBhBodyComposition (0.0.1)
 
 DEPENDENCIES:
-  - PPBluetoothKit (from `/Users/lefu/Documents/iOS/XMProject/PPBluetoothKit`)
+  - IQKeyboardManager
+  - PPBluetoothKit (from `/Users/lefu/Documents/iOS/xin-ios/PPBluetoothKit`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
 
 EXTERNAL SOURCES:
   PPBluetoothKit:
-    :path: "/Users/lefu/Documents/iOS/XMProject/PPBluetoothKit"
+    :path: "/Users/lefu/Documents/iOS/xin-ios/PPBluetoothKit"
 
 SPEC CHECKSUMS:
-  PPBluetoothKit: 278cde267b7ee01f74424a0563425cb150a638d0
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  PPBluetoothKit: 560c154d9424c49b8b15579df363677de98a42a3
 
-PODFILE CHECKSUM: 2ea0d25d471b46300822ee91d398af42553231a9
+PODFILE CHECKSUM: 3a264b19bcbb720a99f8ed25518677c77d0631ea
 
 COCOAPODS: 1.11.3

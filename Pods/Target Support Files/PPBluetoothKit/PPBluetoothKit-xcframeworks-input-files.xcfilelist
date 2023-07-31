@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/PPBluetoothKit/PPBluetoothKit-xcframeworks.sh
-${PODS_ROOT}/../../XMProject/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework
-${PODS_ROOT}/../../XMProject/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/libBhBodyComposition/libBhBodyComposition.xcframework
+${PODS_ROOT}/../../xin-ios/PPBluetoothKit/PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework

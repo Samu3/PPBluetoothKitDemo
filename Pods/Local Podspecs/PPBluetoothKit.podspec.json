@@ -21,11 +21,11 @@
   ],
   "exclude_files": "Classes/Exclude",
   "resources": "PPBluetoothKit/Resources/*",
+  "vendored_libraries": [
+    "PPBluetoothKit/Kit/Calculate/test/libBh1BodyComposition.a",
+    "PPBluetoothKit/Kit/Calculate/test/libBhBodyComposition.a"
+  ],
   "subspecs": [
-    {
-      "name": "libBhBodyComposition",
-      "vendored_frameworks": "PPBluetoothKit/Kit/Calculate/libBhBodyComposition/libBhBodyComposition.xcframework"
-    },
     {
       "name": "abyonCalculate",
       "vendored_frameworks": "PPBluetoothKit/Kit/Calculate/abyonCalculate/abyonCalculate.xcframework"

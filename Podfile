@@ -6,8 +6,9 @@ target 'PPBluetoothKitDemo' do
   use_frameworks!
 
 
-  pod 'PPBluetoothKit',:path=>'PPBluetoothKit'
+#  pod 'PPBluetoothKit',:path=>'PPBluetoothKit'
 
-  #pod 'PPBluetoothKit',:path=>'/Users/lefu/Documents/iOS/XMProject/PPBluetoothKit'
+  pod 'PPBluetoothKit',:path=>'/Users/lefu/Documents/iOS/xin-ios/PPBluetoothKit'
+  pod 'IQKeyboardManager'
 
 end

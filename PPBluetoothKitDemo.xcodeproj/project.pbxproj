@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0DB400F2CE73856E1064AF2F /* Pods_PPBluetoothKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B649855A0E923CB3E7F7827 /* Pods_PPBluetoothKitDemo.framework */; };
+		95059B252A7360CE00F24724 /* CalcuteSelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B242A7360CE00F24724 /* CalcuteSelectDeviceViewController.swift */; };
+		95059B272A73624600F24724 /* CalcuteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B262A73624600F24724 /* CalcuteInfoViewController.swift */; };
+		95059B292A73A54000F24724 /* CalcuelateResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B282A73A54000F24724 /* CalcuelateResultViewController.swift */; };
+		95059B2B2A74A00E00F24724 /* SearchDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */; };
+		95059B2D2A74B1F100F24724 /* Device8ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */; };
+		95059B302A74B96900F24724 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2F2A74B96900F24724 /* ItemCollectionViewCell.swift */; };
 		952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319542A52A4F0003246BA /* FoundedViewController.swift */; };
 		952319572A52AAEA003246BA /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319562A52AAEA003246BA /* ScaleViewController.swift */; };
 		952319592A52B5E3003246BA /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319582A52B5E3003246BA /* AppDetailViewController.swift */; };
@@ -46,6 +52,12 @@
 /* Begin PBXFileReference section */
 		1B6C81D2D3F4BCD743879964 /* Pods-PPBluetoothKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBluetoothKitDemo.release.xcconfig"; path = "Target Support Files/Pods-PPBluetoothKitDemo/Pods-PPBluetoothKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2B649855A0E923CB3E7F7827 /* Pods_PPBluetoothKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPBluetoothKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95059B242A7360CE00F24724 /* CalcuteSelectDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuteSelectDeviceViewController.swift; sourceTree = "<group>"; };
+		95059B262A73624600F24724 /* CalcuteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuteInfoViewController.swift; sourceTree = "<group>"; };
+		95059B282A73A54000F24724 /* CalcuelateResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuelateResultViewController.swift; sourceTree = "<group>"; };
+		95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDeviceViewController.swift; sourceTree = "<group>"; };
+		95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device8ACViewController.swift; sourceTree = "<group>"; };
+		95059B2F2A74B96900F24724 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		952319542A52A4F0003246BA /* FoundedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedViewController.swift; sourceTree = "<group>"; };
 		952319562A52AAEA003246BA /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		952319582A52B5E3003246BA /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +116,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		95059B202A73600300F24724 /* calcute */ = {
+			isa = PBXGroup;
+			children = (
+				95059B2E2A74B95300F24724 /* Views */,
+				95059B242A7360CE00F24724 /* CalcuteSelectDeviceViewController.swift */,
+				95059B262A73624600F24724 /* CalcuteInfoViewController.swift */,
+				95059B282A73A54000F24724 /* CalcuelateResultViewController.swift */,
+				95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */,
+				95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */,
+			);
+			path = calcute;
+			sourceTree = "<group>";
+		};
+		95059B2E2A74B95300F24724 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95059B2F2A74B96900F24724 /* ItemCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		955A39B92A2B3A0D00853B9D = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +162,7 @@
 		955A39C42A2B3A0D00853B9D /* PPBluetoothKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				95059B202A73600300F24724 /* calcute */,
 				955A39C52A2B3A0D00853B9D /* AppDelegate.swift */,
 				955A39C92A2B3A0D00853B9D /* ViewController.swift */,
 				955A39CB2A2B3A0D00853B9D /* Main.storyboard */,
@@ -185,7 +219,7 @@
 				955A39BE2A2B3A0D00853B9D /* Sources */,
 				955A39BF2A2B3A0D00853B9D /* Frameworks */,
 				955A39C02A2B3A0D00853B9D /* Resources */,
-				FBEC074FD2A52B85F2FA0F0D /* [CP] Embed Pods Frameworks */,
+				846FF2A6BA11DF92C549343A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,7 +359,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBEC074FD2A52B85F2FA0F0D /* [CP] Embed Pods Frameworks */ = {
+		846FF2A6BA11DF92C549343A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,16 +383,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95059B2B2A74A00E00F24724 /* SearchDeviceViewController.swift in Sources */,
 				952319632A53F466003246BA /* CoconutViewController.swift in Sources */,
 				955A39CA2A2B3A0D00853B9D /* ViewController.swift in Sources */,
 				9523195D2A53B315003246BA /* BananaViewController.swift in Sources */,
 				952319592A52B5E3003246BA /* AppDetailViewController.swift in Sources */,
 				955A39C62A2B3A0D00853B9D /* AppDelegate.swift in Sources */,
+				95059B292A73A54000F24724 /* CalcuelateResultViewController.swift in Sources */,
 				952319652A54039D003246BA /* CalcuteObj.swift in Sources */,
+				95059B272A73624600F24724 /* CalcuteInfoViewController.swift in Sources */,
 				952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */,
+				95059B2D2A74B1F100F24724 /* Device8ACViewController.swift in Sources */,
 				952319672A5408CD003246BA /* UserInfoViewController.swift in Sources */,
 				952319612A53C794003246BA /* DurianViewController.swift in Sources */,
+				95059B302A74B96900F24724 /* ItemCollectionViewCell.swift in Sources */,
 				952319572A52AAEA003246BA /* ScaleViewController.swift in Sources */,
+				95059B252A7360CE00F24724 /* CalcuteSelectDeviceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
