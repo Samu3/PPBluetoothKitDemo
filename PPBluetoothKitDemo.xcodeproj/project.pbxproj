@@ -14,6 +14,7 @@
 		95059B2B2A74A00E00F24724 /* SearchDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */; };
 		95059B2D2A74B1F100F24724 /* Device8ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */; };
 		95059B302A74B96900F24724 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B2F2A74B96900F24724 /* ItemCollectionViewCell.swift */; };
+		95059B362A77969D00F24724 /* WifiConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95059B352A77969D00F24724 /* WifiConfigViewController.swift */; };
 		952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319542A52A4F0003246BA /* FoundedViewController.swift */; };
 		952319572A52AAEA003246BA /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319562A52AAEA003246BA /* ScaleViewController.swift */; };
 		952319592A52B5E3003246BA /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952319582A52B5E3003246BA /* AppDetailViewController.swift */; };
@@ -58,6 +59,7 @@
 		95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDeviceViewController.swift; sourceTree = "<group>"; };
 		95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device8ACViewController.swift; sourceTree = "<group>"; };
 		95059B2F2A74B96900F24724 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		95059B352A77969D00F24724 /* WifiConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConfigViewController.swift; sourceTree = "<group>"; };
 		952319542A52A4F0003246BA /* FoundedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedViewController.swift; sourceTree = "<group>"; };
 		952319562A52AAEA003246BA /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		952319582A52B5E3003246BA /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				95059B282A73A54000F24724 /* CalcuelateResultViewController.swift */,
 				95059B2A2A74A00E00F24724 /* SearchDeviceViewController.swift */,
 				95059B2C2A74B1F100F24724 /* Device8ACViewController.swift */,
+				95059B352A77969D00F24724 /* WifiConfigViewController.swift */,
 			);
 			path = calcute;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				955A39C62A2B3A0D00853B9D /* AppDelegate.swift in Sources */,
 				95059B292A73A54000F24724 /* CalcuelateResultViewController.swift in Sources */,
 				952319652A54039D003246BA /* CalcuteObj.swift in Sources */,
+				95059B362A77969D00F24724 /* WifiConfigViewController.swift in Sources */,
 				95059B272A73624600F24724 /* CalcuteInfoViewController.swift in Sources */,
 				952319552A52A4F0003246BA /* FoundedViewController.swift in Sources */,
 				95059B2D2A74B1F100F24724 /* Device8ACViewController.swift in Sources */,

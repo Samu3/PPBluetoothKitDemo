@@ -25,13 +25,18 @@ enum menuType:String{
     case ScreenLuminance50 = "ScreenLuminance(50)"
     case ScreenLuminance100 = "ScreenLuminance(100)"
     case keepAlive = "keep connect alive"
+    case wificonfigstatus = "wifi config"
+    case distributionNetwork = "distribution network"
+    case selectUser = "select user"
+    case deleteUser = "delete user"
 
 
 }
 
 class Device8ACViewController: UIViewController {
     @IBOutlet weak var consoleView: UITextView!
-    
+    var conslogStr = ""
+
     @IBOutlet weak var collectionView: UICollectionView!
     var XM_Torre: PPBluetoothPeripheralTorre?
     
@@ -42,11 +47,10 @@ class Device8ACViewController: UIViewController {
     @IBOutlet weak var connectStateLbl: UILabel!
     
     @IBOutlet weak var weightLbl: UILabel!
-    var conslogStr = ""
     var unit = PPDeviceUnit.unitKG
 
     var XM_IsConnect: Bool = false
-    var array = [menuType.connectDevice,menuType.checkBindState,menuType.deviceInfo,menuType.startMeasure,menuType.SyncTime,.SyncUserList,.ImpedanceSwitch,.changeUnit,.HeartRateSwitch,.clearDeviceData,.ScreenLuminance50,.ScreenLuminance100,.keepAlive]
+    var array = [menuType.connectDevice,menuType.checkBindState,menuType.deviceInfo,menuType.startMeasure,.selectUser,menuType.SyncTime,.wificonfigstatus,.distributionNetwork,.SyncUserList,.selectUser,.deleteUser,.ImpedanceSwitch,.changeUnit,.HeartRateSwitch,.clearDeviceData,.ScreenLuminance50,.keepAlive]
     
     let user : PPTorreSettingModel = {
         
@@ -146,6 +150,10 @@ extension Device8ACViewController:UICollectionViewDelegate,UICollectionViewDataS
         if title == .startMeasure{
             
             cell.titleLbl.textColor = UIColor.green
+            
+        }else  if title == .distributionNetwork{
+            cell.titleLbl.textColor = UIColor.red
+
         }else{
             cell.titleLbl.textColor = UIColor.black
 
@@ -347,9 +355,44 @@ extension Device8ACViewController:UICollectionViewDelegate,UICollectionViewDataS
             
         }
         
+        if title == .wificonfigstatus{
+            self.addBleCmd(ss: "codeFetchWifiConfig")
+            self.XM_Torre?.codeFetchWifiConfig({ status in
+                self.addStatusCmd(ss: "\(status)")
+            })
+        }
+        
+        if title == .distributionNetwork{
+            
+            let vc = WifiConfigViewController.instantiate()
+            
+            vc.XM_Torre = self.XM_Torre
+            
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        if title == .selectUser{
+            
+            self.addBleCmd(ss: "dataSelectUser")
+            self.XM_Torre?.dataSelectUser(self.user, withHandler: { statu in
+                self.addStatusCmd(ss: "\(statu)")
+
+            })
+        }
+        
+        if title == .deleteUser{
+            
+            self.addBleCmd(ss: "dataDeleteUser")
+            self.XM_Torre?.dataDeleteUser(self.user, withHandler: { statu in
+                self.addStatusCmd(ss: "\(statu)")
+
+            })
+        }
+        
     }
     
-    
+        
 }
 
 extension Device8ACViewController:PPBluetoothUpdateStateDelegate{
